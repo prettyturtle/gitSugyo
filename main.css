@@ -98,8 +98,8 @@ header .inner .subject-menu .subject div:hover a {
   margin: auto;
   cursor: pointer;
   box-shadow: 0 0 5px 0 #DBB98F;
+  outline: none;
 }
-
 .circle:hover {
   background-color: #96351F;
   color: #DBB98F;
