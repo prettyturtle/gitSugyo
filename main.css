@@ -82,9 +82,30 @@ header .inner .subject-menu .subject div a{
 
 header .inner .subject-menu .subject div:hover a {
   color: #DBB98F;
-
 }
 
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #DBB98F;
+  color: #96351F;
+  border: 3px solid #96351F;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 #DBB98F;
+}
+
+.circle:hover {
+  background-color: #96351F;
+  color: #DBB98F;
+  border: 3px solid #DBB98F;
+  box-shadow: 0 0 5px 0 #96351F;
+}
 
 @media screen and (max-width: 800px) {
   body {
