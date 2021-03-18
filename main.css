@@ -13,6 +13,9 @@ img {
 a {
   text-decoration: none;
 }
+button {
+  display: block;
+}
 
 /* Header */
 header {
@@ -88,6 +91,7 @@ header .inner .subject-menu .subject div:hover a {
   width: 100px;
   height: 100px;
   border-radius: 50px;
+  font-size: 20px;
   background-color: #DBB98F;
   color: #96351F;
   border: 3px solid #96351F;
@@ -96,7 +100,6 @@ header .inner .subject-menu .subject div:hover a {
   bottom: 0;
   left: 20px;
   margin: auto;
-  cursor: pointer;
   box-shadow: 0 0 5px 0 #DBB98F;
   outline: none;
 }
@@ -105,7 +108,50 @@ header .inner .subject-menu .subject div:hover a {
   color: #DBB98F;
   border: 3px solid #DBB98F;
   box-shadow: 0 0 5px 0 #96351F;
+  cursor: pointer;
 }
+
+
+.roulette-box {
+  width: 500px;
+  position: absolute;
+  top: 200px;
+  bottom: 0;
+  right: 100px;
+  margin: auto;
+}
+.roulette-box>div button {
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  font-size: 20px;
+  box-shadow: 0 0 5px 0 #DBB98F;
+  background-color: #DBB98F;
+  color: #96351F;
+  border: 3px solid #96351F;
+  
+}
+.roulette-box>div button:hover {
+  background-color: #96351F;
+  color: #DBB98F;
+  box-shadow: 0 0 5px 0 #96351F;
+  border: 3px solid #DBB98F;
+  cursor: pointer;
+}
+
+.roulette-box .roulette {
+  text-align: center;
+  font-size: 30px;
+}
+.roulette-box .roulette>img {
+  width: 450px;
+  margin: auto;
+  transition: 1.2s;
+  
+}
+
 
 @media screen and (max-width: 800px) {
   body {
@@ -154,5 +200,64 @@ header .inner .subject-menu .subject div:hover a {
     margin: 0 0 0 0;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
+  }
+
+
+
+  .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 13px;
+    background-color: #DBB98F;
+    color: #96351F;
+    border: 3px solid #96351F;
+    position: absolute;
+    top: -500px;
+    left: 10px;
+    margin: auto;
+    box-shadow: 0 0 5px 0 #DBB98F;
+    outline: none;
+  }
+
+
+
+  .roulette-box {
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    right: 10px;
+    margin: auto;
+  }
+  .roulette-box>div button {
+    margin: auto;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 13px;
+    box-shadow: 0 0 5px 0 #DBB98F;
+    background-color: #DBB98F;
+    color: #96351F;
+    border: 3px solid #96351F;
+    
+  }
+  .roulette-box>div button:hover {
+    background-color: #96351F;
+    color: #DBB98F;
+    box-shadow: 0 0 5px 0 #96351F;
+    border: 3px solid #DBB98F;
+    cursor: pointer;
+  }
+  
+  .roulette-box .roulette {
+    text-align: center;
+    font-size: 20px;
+  }
+  .roulette-box .roulette>img {
+    width: 280px;
+    margin: auto;
+    transition: 1.2s;
   }
 }
