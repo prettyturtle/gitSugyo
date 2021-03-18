@@ -17,7 +17,7 @@ function stage(e) {
   let stageNum = stageBtn.split('-')[1]
   let answerCount = stageBtn.split('-')[2]
   sessionStorage.setItem('answerCount', answerCount)
-  let quizImg = `<img src="../images/stage/1-${stageNum}/Q.png" alt="문제">`
+  let quizImg = `<img src="../images/analysis/1-${stageNum}/Q.png" alt="문제">`
   quiz.insertAdjacentHTML('beforeend', quizImg)
 
   let arra = []
@@ -32,7 +32,7 @@ function stage(e) {
     let answerNum = arra[ranNum]
     let tempHtml = `<div class="answer_num">${i+1}번</div>
     <div class="answer_img">
-      <img onclick="mark(this)" class="answerImg" src="../images/stage/1-${stageNum}/list_answer/${answerNum}.png" alt="${answerNum}.png" name="${answerNum}">
+      <img onclick="mark(this)" class="answerImg" src="../images/analysis/1-${stageNum}/list_answer/${answerNum}.png" alt="${answerNum}.png" name="${answerNum}">
     </div>`
     answerTotal.insertAdjacentHTML('beforeend', tempHtml)
     arra.splice(ranNum, 1)
@@ -44,7 +44,7 @@ function stage(e) {
 let aa = []
 function mark(e) {
   let bb = []
-  for (i=1;i<=sessionStorage.getItem('answerCount');i++) {
+  for (i=1; i<=sessionStorage.getItem('answerCount'); i++) {
     bb.push(i)
   }
   aa.push(Number(e.name))
