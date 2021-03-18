@@ -213,7 +213,8 @@ header .inner .subject-menu .subject div:hover a {
     color: #96351F;
     border: 3px solid #96351F;
     position: absolute;
-    top: -500px;
+    top: 0;
+    bottom: 0;
     left: 10px;
     margin: auto;
     box-shadow: 0 0 5px 0 #DBB98F;
