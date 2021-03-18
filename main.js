@@ -10,9 +10,9 @@ rouletteBtn.addEventListener('click', function () {
   if (randomNumber >= 0 && randomNumber < 14.4) {
     roulette.style.transform = `rotate(${randomNumber + turnAngle}deg)`
     setTimeout(function() {
+      alert('오늘은 구냥 놀쟝!')
       window.location.reload()
     }, 1500);
-    alert('오늘은 구냥 놀쟝!')
   } else if (randomNumber >= 14.4 && randomNumber < 100.8) {
     roulette.style.transform = `rotate(${randomNumber + turnAngle}deg)`
     setTimeout(function() {
