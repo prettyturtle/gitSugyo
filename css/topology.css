@@ -151,7 +151,9 @@ main .quiz_total .quiz_img {
 }
 main .quiz_total .quiz_img img {
   max-width: 1100px;
-  border: 5px double #96351F
+  border: 5px double #96351F;
+  box-sizing: border-box;
+
   
 }
 
@@ -255,7 +257,9 @@ main .answer_total .answer_img img:hover {
     }
     main .quiz_total .quiz_img img {
       max-width: 350px;
-      border: 3px double #96351F
+      border: 3px double #96351F;
+      box-sizing: border-box;
+
       
     }
     main .answer_total .answer_num {
