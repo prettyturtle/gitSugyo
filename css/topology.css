@@ -137,9 +137,9 @@ main {
   /* box-sizing: border-box; */
 }
 
-main .quiz_total {
+/* main .quiz_total {
+} */
 
-}
 main .quiz_total .quiz_name{
   text-align: center;
   font-size: 32px;
@@ -157,9 +157,10 @@ main .quiz_total .quiz_img img {
   
 }
 
-main .answer_total {
-  /* background-color: #101820; */
-}
+/* main .answer_total {
+  /* background-color: #101820;
+} */
+
 main .answer_total .answer_num {
   text-align: center;
   font-size: 24px;
